@@ -10,18 +10,60 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>Rain Bow</title>
   </head>
   <body>
     <!--Navbar-->
     <section>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-            <div class="container">
-                
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rain Bow</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Button to be toggled (hidden by default) -->
+          <a
+            href="#"
+            class="btn btn-primary btn-sm ml-2 d-none"
+            id="toggleButton"
+            >Button</a
+          >
+          <div
+            class="collapse navbar-collapse justify-content-around"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <a href="" class="btn nav-button">Buy Now</a>
+          </div>
+        </div>
+      </nav>
     </section>
-
     <!--End navbar-->
 
     <script
