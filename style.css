@@ -13,9 +13,8 @@
     color: lightblue;
 }
 .navbar {
-    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with your image URL */
-    background-size: cover; /* Cover size for the background image */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 .nav-link{
     font-family: sans-serif;
@@ -23,4 +22,46 @@
 .navbar-brand{
     font-family: sans-serif;
     font-weight: 600;
+}
+
+/*--HOME---*/
+#home{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+#home.text-part{
+    background-color: #ffff;
+    padding: 20px;
+}
+#home .image-part{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #ffff;
+
+}
+/*----END_HOME----*/
+.home-image{
+    border-radius: 166px !important;
+}
+.home-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.home-p{
+    color: #0033a0;
+    font: 500;
+}
+.home-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0033a0;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.home-btn:hover{
+    color: white;
 }
