@@ -1,67 +1,109 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.nav-button{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0033a0;
-    color: white;
-    font-family: sans-serif;
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0033a0;
+  color: white;
+  font-family: sans-serif;
 }
-.nav-button:hover{
-    color: lightblue;
+.nav-button:hover {
+  color: lightblue;
 }
 .navbar {
-    background-size: cover;
-    background-repeat: no-repeat; 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.nav-link{
-    font-family: sans-serif;
+.nav-link {
+  font-family: sans-serif;
 }
-.navbar-brand{
-    font-family: sans-serif;
-    font-weight: 600;
+.navbar-brand {
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 /*--HOME---*/
-#home{
-    background-color: #f0f0f0;
-    padding: 50px 0;
+#home {
+  background-color: #f0f0f0;
+  padding: 50px 0;
 }
-#home.text-part{
-    background-color: #ffff;
-    padding: 20px;
+#home.text-part {
+  background-color: #ffff;
+  padding: 20px;
 }
-#home .image-part{
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-    color: #ffff;
-
+#home .image-part {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #ffff;
 }
 /*----END_HOME----*/
-.home-image{
-    border-radius: 166px !important;
+.home-image {
+  border-radius: 166px !important;
 }
-.home-text{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 50px;
+.home-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
 }
-.home-p{
-    color: #0033a0;
-    font: 500;
+.home-p {
+  color: #0033a0;
+  font: 500;
 }
-.home-btn{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0033a0;
-    color: white;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+.home-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0033a0;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
-.home-btn:hover{
-    color: white;
+.home-btn:hover {
+  color: white;
+}
+
+/*--About---*/
+#about {
+  height: 500px;
+  width: auto;
+  background-color: #f0f0f0;
+}
+.about-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.About-Paragraph {
+  color: #0033a0;
+  font: 500;
+}
+
+
+.about-part {
+  padding: 20px;
+  color: #fff;
+  max-height: 390px;
+}
+.about-inner{
+  font-family: sans-serif;
+  font-size: 23px;
+}
+.text-container{
+  max-width: 100%; /* Ensure the text container doesn't exceed its parent's width */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for overflowing text */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  font-size: 14px; /* Adjust the font size as needed */
+  line-height: 1.5;
+}
+@media (min-width: 992px) {
+  .text-container {
+    white-space: normal; /* Allow text to wrap on larger screens */
+    overflow: visible; /* Display overflowing text without ellipsis */
+    font-size: inherit; /* Reset the font size to the default */
+    line-height: inherit; /* Reset the line height to the default */
+  }
 }
