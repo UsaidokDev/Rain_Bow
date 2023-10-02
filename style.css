@@ -167,26 +167,87 @@ html, body {
 
 /* Styles for "second-serv" section */
 #second-serv {
-  padding: 20px 0; /* Reduce padding for better spacing on small screens */
-  text-align: center; /* Center text on small screens */
+  padding: 20px 0; 
+  text-align: center; 
 }
 
 @media (max-width: 576px) {
   #second-serv .row {
-    flex-wrap: wrap; /* Wrap columns on small screens */
+    flex-wrap: wrap; 
   }
 
   #second-serv .col-12 {
-    flex: 0 0 100%; /* Make columns full-width on small screens */
-    margin-bottom: 20px; /* Add margin between columns */
+    flex: 0 0 100%; 
+    margin-bottom: 20px; 
   }
 
   .img-fluid {
-    max-width: 100%; /* Ensure images don't exceed the screen width */
+    max-width: 100%; 
     height: auto;
-    border-radius: 20px; /* Apply border-radius to images */
+    border-radius: 20px; 
+  }
+}
+/*--END_SERVICES--*/
+
+
+
+/*---CONTACT----*/
+@media(max-width:767px){
+  .main-contact{
+    height: 100%;
+    width: 100%;
+  }
+}
+@media(min-width:768px){
+  .main-contact{
+    height: 100vh;
+    width: auto;
   }
 }
 
 
-/*--END_SERVICES--*/
+#contact {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-content {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+/*---END CONTACT---*/
