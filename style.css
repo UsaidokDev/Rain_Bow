@@ -72,12 +72,16 @@ html, body {
 }
 
 /*--About---*/
-#about {
+#about{
   min-height: 100vh;
-  padding: 20px; 
-  height: 500px;
+  padding: 20px;
   width: auto;
   background-color: #f0f0f0;
+}
+@media(max-width:767px) {
+  #about{
+    min-height: auto;
+  }
 }
 .about-text {
   font-family: sans-serif;
@@ -115,3 +119,48 @@ html, body {
     line-height: inherit; 
   }
 }
+/*---END_ABOUT--*/
+
+/*--SERVICES--*/
+#services{
+  height: 400px;
+  width: auto;
+  padding: 50px 0;
+}
+.services-image{
+  border-radius: 20px ;
+}
+.services-head{
+  font-size: 28px;
+  text-align: center;
+}
+
+@media(max-width:767){
+  .services-head{
+    font-size: 20px;
+  }
+}
+
+.services-paragraph{
+  margin-top: 2px;
+  text-align: justify;
+}
+@media(min-width:992px){
+  .services-paragraph{
+    font-size: 16px;
+  }
+}
+.services-border{
+  height: auto;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+  margin:0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.services-border p{
+  margin: 10px 0;
+  color: #0033a0;
+}
+/*--END_SERVICES--*/
