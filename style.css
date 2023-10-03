@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
 }
 .nav-button {
   display: inline-block;
@@ -72,14 +73,14 @@ html, body {
 }
 
 /*--About---*/
-#about{
+#about {
   min-height: 100vh;
   padding: 20px;
   width: auto;
   background-color: #f0f0f0;
 }
-@media(max-width:767px) {
-  #about{
+@media (max-width: 767px) {
+  #about {
     min-height: 100%;
   }
 }
@@ -97,24 +98,24 @@ html, body {
   color: #fff;
   max-height: 390px;
 }
-.about-inner{
+.about-inner {
   font-family: sans-serif;
   font-size: 23px;
 }
-.text-container{
+.text-container {
   max-width: 100%;
-  overflow: hidden; 
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 14px;
   line-height: 1.5;
 }
 @media (min-width: 992px) {
   .text-container {
-    white-space: normal; 
-    overflow: visible; 
-    font-size: inherit; 
-    line-height: inherit; 
+    white-space: normal;
+    overflow: visible;
+    font-size: inherit;
+    line-height: inherit;
   }
 }
 /*---END_ABOUT--*/
@@ -167,44 +168,41 @@ html, body {
 
 /* Styles for "second-serv" section */
 #second-serv {
-  padding: 20px 0; 
-  text-align: center; 
+  padding: 20px 0;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
   #second-serv .row {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
 
   #second-serv .col-12 {
-    flex: 0 0 100%; 
-    margin-bottom: 20px; 
+    flex: 0 0 100%;
+    margin-bottom: 20px;
   }
 
   .img-fluid {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-    border-radius: 20px; 
+    border-radius: 20px;
   }
 }
 /*--END_SERVICES--*/
 
-
-
 /*---CONTACT----*/
-@media(max-width:767px){
-  .main-contact{
+@media (max-width: 767px) {
+  .main-contact {
     height: 100%;
     width: 100%;
   }
 }
-@media(min-width:768px){
-  .main-contact{
+@media (min-width: 768px) {
+  .main-contact {
     height: 100vh;
     width: auto;
   }
 }
-
 
 #contact {
   background-color: #fff;
@@ -239,7 +237,7 @@ textarea {
   border-radius: 5px;
 }
 button {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -251,3 +249,18 @@ button:hover {
   background-color: #0056b3;
 }
 /*---END CONTACT---*/
+
+
+
+
+
+
+/*--FOOTER--*/
+@media (max-width: 576px) {
+  #footer{
+    height: 600px;
+    width: auto;
+    background-color: #E7ECFF;
+  }
+}
+/*----END_FOOTER-----*/
