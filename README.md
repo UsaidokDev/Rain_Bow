@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-#Rain-Bow
-
-This Website Mainly Business Purppos Website,
-=======
 # Rain_Bow
+This Website Mainly Business Purppos Website,
 
-<p>This Basicaly A Business Website</p>
->>>>>>> origin/master
